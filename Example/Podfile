@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TYPodTest_Example' do
+  pod 'TYPodTest', :path => '../'
+
+  target 'TYPodTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
