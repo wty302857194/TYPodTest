@@ -1,0 +1,6 @@
+framework module TYPodTest {
+  umbrella header "TYPodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

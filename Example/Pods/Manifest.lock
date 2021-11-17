@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TYPodTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TYPodTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TYPodTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TYPodTest: f29763e8368f065d4b42ef60ab39ae339e512546
+
+PODFILE CHECKSUM: a4019821add3aa995063f6c79246c8eff45b2e3a
+
+COCOAPODS: 1.10.1
